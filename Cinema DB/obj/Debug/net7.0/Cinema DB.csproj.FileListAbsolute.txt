@@ -1,0 +1,85 @@
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.csproj.AssemblyReference.cache
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.GeneratedMSBuildEditorConfig.editorconfig
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.AssemblyInfoInputs.cache
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.AssemblyInfo.cs
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.csproj.CoreCompileInputs.cache
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.MvcApplicationPartsAssemblyInfo.cs
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.MvcApplicationPartsAssemblyInfo.cache
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\appsettings.Development.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\appsettings.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.exe
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.deps.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.runtimeconfig.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.pdb
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Azure.Core.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Azure.Identity.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Humanizer.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.OpenApi.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.CodeDom.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Memory.Data.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets\msbuild.Cinema DB.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets\msbuild.build.Cinema DB.props
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Cinema DB.props
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Cinema DB.props
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets.pack.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets.build.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\staticwebassets.development.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\scopedcss\bundle\Cinema DB.styles.css
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.csproj.CopyComplete
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\refint\Cinema DB.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.pdb
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.genruntimeconfig.cache
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\ref\Cinema DB.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Actors.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Newtonsoft.Json.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Directors.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Movies.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\ActorMovie.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Users.json

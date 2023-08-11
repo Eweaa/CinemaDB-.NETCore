@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Martin Scorsese",
+    "Movies": []
+  },
+  {
+    "Id": 2,
+    "Name": "Francis Ford Coppola",
+    "Movies": []
+  },
+  {
+    "Id": 3,
+    "Name": "Quentin Tarantino",
+    "Movies": []
+  },
+  {
+    "Id": 4,
+    "Name": "Stanley Kubrick",
+    "Movies": []
+  },
+  {
+    "Id": 5,
+    "Name": "Christopher Nolan",
+    "Movies": []
+  },
+  {
+    "Id": 6,
+    "Name": "Alfred Hitchcock",
+    "Movies": []
+  }
+]

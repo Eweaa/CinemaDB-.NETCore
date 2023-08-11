@@ -1,0 +1,22 @@
+[
+  {
+    "ActorId": 1,
+    "MovieId": 2
+  },
+  {
+    "ActorId": 1,
+    "MovieId": 4
+  },
+  {
+    "ActorId": 1,
+    "MovieId": 5
+  },
+  {
+    "ActorId": 1,
+    "MovieId": 6
+  },
+  {
+    "ActorId": 2,
+    "MovieId": 7
+  }
+]
