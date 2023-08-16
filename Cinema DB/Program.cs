@@ -1,7 +1,7 @@
 using Cinema_DB.Business.Interfaces;
 using Cinema_DB.Business.Repos;
-using Cinema_DB.Data;
 using Cinema_DB.Helper;
+using Cinema_DB.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

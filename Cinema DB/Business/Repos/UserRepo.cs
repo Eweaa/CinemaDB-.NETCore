@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
 using Cinema_DB.Business.Interfaces;
-using Cinema_DB.Data;
-using Cinema_DB.Data.Models;
+using Cinema_DB.Domain.Entities;
 using Cinema_DB.Helper.ViewModels;
+using Cinema_DB.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
 namespace Cinema_DB.Business.Repos

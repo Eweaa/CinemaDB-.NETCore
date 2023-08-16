@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Business\ViewModels\" />
+    <Folder Include="Application\" />
   </ItemGroup>
 
 </Project>

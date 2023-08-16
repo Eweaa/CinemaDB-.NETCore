@@ -1,8 +1,8 @@
-﻿using Cinema_DB.Data.Models;
+﻿using Cinema_DB.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace Cinema_DB.Data
+namespace Cinema_DB.Infrastructure.Persistence
 {
     public class DataContext : DbContext
     {

@@ -1,6 +1,5 @@
 ﻿using Cinema_DB.Business.Interfaces;
-using Cinema_DB.Business.Repos;
-using Cinema_DB.Data.Models;
+using Cinema_DB.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;

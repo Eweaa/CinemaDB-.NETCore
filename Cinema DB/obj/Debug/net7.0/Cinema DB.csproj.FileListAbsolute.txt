@@ -7,14 +7,22 @@ G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.M
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.MvcApplicationPartsAssemblyInfo.cache
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\appsettings.Development.json
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\appsettings.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\ActorMovie.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Actors.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Directors.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Movies.json
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Users.json
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.exe
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.deps.json
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.runtimeconfig.json
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Cinema DB.pdb
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Azure.Core.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Azure.Identity.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Humanizer.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
@@ -36,6 +44,7 @@ G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.O
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Newtonsoft.Json.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -74,12 +83,3 @@ G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\refint\Cine
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.pdb
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\Cinema DB.genruntimeconfig.cache
 G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\obj\Debug\net7.0\ref\Cinema DB.dll
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Actors.json
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Newtonsoft.Json.dll
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Directors.json
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Movies.json
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.dll
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\ActorMovie.json
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-G:\Projects\Web Designs\BackEnd\Cinema DB\Cinema DB\bin\Debug\net7.0\Data\Users.json

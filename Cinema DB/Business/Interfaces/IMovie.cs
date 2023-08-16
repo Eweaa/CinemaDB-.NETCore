@@ -1,4 +1,5 @@
-﻿using Cinema_DB.Data.Models;
+﻿
+using Cinema_DB.Domain.Entities;
 
 namespace Cinema_DB.Business.Interfaces
 {
