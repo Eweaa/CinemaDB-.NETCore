@@ -1,15 +1,17 @@
-﻿using Cinema_DB.Business.Interfaces;
+﻿using Cinema_DB.Application.Directors.Commands.CreateDirector;
+using Cinema_DB.Application.Directors.Commands.DeleteDirector;
+using Cinema_DB.Business.Interfaces;
 using Cinema_DB.Domain.Entities;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
 
 namespace Cinema_DB.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class DirectorController : Controller
+    public class DirectorController : ApiControllerBase
     {
         private readonly IDirector _director;
         public DirectorController(IDirector director)
@@ -42,6 +44,24 @@ namespace Cinema_DB.Controllers
                 return BadRequest(ModelState);
 
             return Ok(director);
+        }
+
+        [HttpPost]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(400)]
+        public async Task<ActionResult<long>> Create(CreateDirectorCommand command)
+        {
+            return await Mediator.Send(command);
+        }
+
+        [HttpDelete("{Id}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public async Task<IActionResult> Delete(long Id)
+        {
+            await Mediator.Send(new DeleteDirectorCommand(Id));
+            return NoContent();
         }
     }
 }

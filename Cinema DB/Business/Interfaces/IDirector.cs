@@ -7,7 +7,6 @@ namespace Cinema_DB.Business.Interfaces
         ICollection<Director> GetDirectors();
         Director GetDirector(int Id);
         bool DirectorExists(int Id);
-        bool CreateDirector(Director director);
         bool Save();
     }
 }

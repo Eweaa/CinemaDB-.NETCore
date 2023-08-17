@@ -16,12 +16,6 @@ namespace Cinema_DB.Business.Repos
             .FirstOrDefault();
         public ICollection<Movie> GetMovies() => _context.Movies.Include(d => d.Director).ToList();
 
-        public bool CreateMovie(Movie movie)
-        {
-            _context.Add(movie);
-            return Save();
-        }
-
         public bool Save()
         {
             var saved = _context.SaveChanges();

@@ -27,18 +27,6 @@ namespace Cinema_DB.Business.Repos
             return data.ProjectTo<ActorVM>(mapper.ConfigurationProvider).ToList();
         }
 
-        public bool CreateActor(Actor actor)
-        {
-            _context.Actors.Add(actor);
-            return Save();
-        }
-
-        public bool DeleteActor(Actor actor)
-        {
-            _context.Actors.Remove(actor);
-            return Save();
-        }
-
         public bool Save()
         {
             var saved = _context.SaveChanges();

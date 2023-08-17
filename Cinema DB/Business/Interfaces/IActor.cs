@@ -8,8 +8,6 @@ namespace Cinema_DB.Business.Interfaces
         ICollection<ActorVM> GetActors(); 
         Actor GetActor(int Id);
         bool ActorExists(int Id);
-        bool CreateActor(Actor actor);
-        bool DeleteActor(Actor actor);
         bool Save();
     }
 }

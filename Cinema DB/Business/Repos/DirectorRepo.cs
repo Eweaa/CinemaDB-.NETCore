@@ -12,11 +12,6 @@ namespace Cinema_DB.Business.Repos
             _context = context;
         }
 
-        public bool CreateDirector(Director director)
-        {
-            throw new NotImplementedException();
-        }
-
         public bool DirectorExists(int Id) => _context.Directors.Where(D => D.Id ==Id).Any();
 
         public Director GetDirector(int Id) => _context.Directors.Where(D => D.Id == Id).FirstOrDefault();

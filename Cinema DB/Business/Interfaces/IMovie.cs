@@ -8,7 +8,6 @@ namespace Cinema_DB.Business.Interfaces
         ICollection<Movie> GetMovies();
         Movie GetMovie(int Id);
         bool MovieExists(int Id);
-        bool CreateMovie(Movie movie);
         bool Save();
     }
 }

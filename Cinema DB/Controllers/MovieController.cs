@@ -1,4 +1,8 @@
 ﻿using AutoMapper;
+using Cinema_DB.Application.Actors.Commands.CreateActor;
+using Cinema_DB.Application.Actors.Commands.DeleteActor;
+using Cinema_DB.Application.Movies.Commands.CreateMovie;
+using Cinema_DB.Application.Movies.Commands.DeleteMovie;
 using Cinema_DB.Business.Interfaces;
 using Cinema_DB.Domain.Entities;
 using Cinema_DB.Helper.ViewModels;
@@ -11,7 +15,7 @@ namespace Cinema_DB.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class MovieController : Controller
+    public class MovieController : ApiControllerBase
     {
         private readonly IMovie _movie;
         private readonly IMapper _mapper;
@@ -52,26 +56,20 @@ namespace Cinema_DB.Controllers
         [HttpPost]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult CreateMovie(Movie movie)
+        public async Task<ActionResult<long>> Create(CreateMovieCommand command)
         {
-            if (movie == null)
-                return BadRequest(ModelState);
+            return await Mediator.Send(command);
+        }
 
-            var movies = _movie.GetMovies().Where(m => m.Name == movie.Name).FirstOrDefault();
 
-            if (movies != null)
-            {
-                ModelState.AddModelError("", "Movie Already Exists");
-                return StatusCode(422, ModelState);
-            }
-
-            if (!_movie.CreateMovie(movie))
-            {
-                ModelState.AddModelError("", "Something went wrong while Saving");
-                return StatusCode(500, ModelState);
-            }
-
-            return Ok(movie);
+        [HttpDelete("{Id}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(204)]
+        [ProducesResponseType(404)]
+        public async Task<IActionResult> Delete(long Id)
+        {
+            await Mediator.Send(new DeleteMovieCommand(Id));
+            return NoContent();
         }
 
     }

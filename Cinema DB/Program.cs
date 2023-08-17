@@ -12,6 +12,7 @@ using System.Text.Json.Serialization;
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSwaggerGen(c =>
@@ -97,6 +98,8 @@ builder.Services.AddCors(options =>
             policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
         });
 });
+
+builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
 
 var app = builder.Build();
 

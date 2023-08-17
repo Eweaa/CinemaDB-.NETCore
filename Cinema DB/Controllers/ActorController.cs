@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using Cinema_DB.Application.Actors.Commands.CreateActor;
+using Cinema_DB.Application.Actors.Commands.DeleteActor;
 using Cinema_DB.Business.Interfaces;
 using Cinema_DB.Domain.Entities;
 using Cinema_DB.Helper.ViewModels;
@@ -10,7 +12,7 @@ namespace Cinema_DB.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
-    public class ActorController : Controller
+    public class ActorController : ApiControllerBase
     {
         private readonly IActor _actor;
         private readonly IMapper _mapper;
@@ -49,48 +51,22 @@ namespace Cinema_DB.Controllers
             return Ok(actor);
         }
 
+        
         [HttpPost]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
-        public IActionResult CreateActor(Actor actor)
+        public async Task<ActionResult<long>> Create(CreateActorCommand command)
         {
-            if (actor == null)
-                return BadRequest(ModelState);
-
-            var actors = _actor.GetActors().Where(a => a.Name == actor.Name).FirstOrDefault();
-
-            if (actors != null)
-            {
-                ModelState.AddModelError("", "Actor Already Exists");
-                return StatusCode(422, ModelState);
-            }
-
-            if (!_actor.CreateActor(actor))
-            {
-                ModelState.AddModelError("", "Something went wrong while Saving");
-                return StatusCode(500, ModelState);
-            }
-
-            return Ok(actor);
+            return await Mediator.Send(command);
         }
 
         [HttpDelete("{Id}")]
         [ProducesResponseType(400)]
         [ProducesResponseType(204)]
         [ProducesResponseType(404)]
-        public IActionResult DeleteActor(int Id)
+        public async Task<IActionResult> Delete(long Id)
         {
-            if (!_actor.ActorExists(Id)) 
-                return NotFound();
-
-            var actorToDelete = _actor.GetActor(Id);
-
-            if ((!ModelState.IsValid))
-                return BadRequest(ModelState);
-
-            if (!_actor.DeleteActor(actorToDelete))
-                ModelState.AddModelError("", "Something Went Wrong While Deleting This Actor");
-
+            await Mediator.Send(new DeleteActorCommand(Id));
             return NoContent();
         }
 
