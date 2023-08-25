@@ -7,11 +7,12 @@ namespace Cinema_DB.Helper
 {
     public class JWTTokenGenerator
     {
-        public static string Generate(string userId, string userName)
+        public static string Generate(string userId, string userName, bool role)
         {
             List<Claim> claims = new();
             claims.Add(new Claim("UserId", userId));
             claims.Add(new Claim("UserName", userName));
+            claims.Add(new Claim("Role", role.ToString()));
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("my_secret_key_123456"));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(

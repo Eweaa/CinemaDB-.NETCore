@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Applications\**" />
+    <Content Remove="Applications\**" />
+    <EmbeddedResource Remove="Applications\**" />
+    <None Remove="Applications\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="MediatR" Version="12.1.1" />
@@ -28,11 +35,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\Actors\Commands\UpdateActor\" />
-    <Folder Include="Application\Directors\Commands\UpdateDirector\" />
-    <Folder Include="Application\Directors\Queries\" />
-    <Folder Include="Application\Movies\Commands\UpdateMovie\" />
-    <Folder Include="Application\Movies\Queries\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Helper\ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

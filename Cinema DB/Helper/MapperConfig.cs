@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
+using Cinema_DB.Application.Actors.Queries;
+using Cinema_DB.Application.Movies.Queries;
 using Cinema_DB.Domain.Entities;
-using Cinema_DB.Helper.ViewModels;
 
 namespace Cinema_DB.Helper
 {
@@ -8,10 +9,11 @@ namespace Cinema_DB.Helper
     {
         public MapperConfig() 
         {
-            CreateMap<Actor, ActorVM>().ReverseMap();
-            CreateMap<Movie, MovieVM>()
-                .ForMember(des => des.Name, opt => opt.MapFrom(src => src.Name))
+            CreateMap<Actor, ActorDto>().ReverseMap();
+            CreateMap<Movie, MovieDto>()
+                .ForMember(des => des.DirectorName, opt => opt.MapFrom(src => src.Director.Id))
                 .ForMember(des => des.DirectorName, opt => opt.MapFrom(src => src.Director.Name)).ReverseMap();
+                //.ForMember(des => des.Name, opt => opt.MapFrom(src => src.Name))
 
         }
     }

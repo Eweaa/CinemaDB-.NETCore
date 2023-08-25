@@ -1,5 +1,3 @@
-using Cinema_DB.Business.Interfaces;
-using Cinema_DB.Business.Repos;
 using Cinema_DB.Helper;
 using Cinema_DB.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -77,10 +75,6 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 // Using AutoMapper
 builder.Services.AddAutoMapper(typeof(MapperConfig));
 
-builder.Services.AddScoped<IActor, ActorRepo>();
-builder.Services.AddScoped<IMovie, MovieRepo>();
-builder.Services.AddScoped<IDirector, DirectorRepo>();
-builder.Services.AddScoped<IUser, UserRepo>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

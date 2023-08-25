@@ -9,6 +9,12 @@
     "Id": 2,
     "Name": "user",
     "Password": "user",
+    "Role": true
+  },
+  {
+    "Id": 3,
+    "Name": "KLR",
+    "Password": "LtotheOG",
     "Role":  true
-  }
+  },
 ]
