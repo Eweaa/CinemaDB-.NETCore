@@ -1,8 +1,10 @@
-﻿using Cinema_DB.Application.Actors.Commands.CreateActor;
-using Cinema_DB.Application.Actors.Commands.DeleteActor;
-using Cinema_DB.Application.Actors.Queries;
+﻿//using Cinema_DB.Application.Actors.Commands.CreateActor;
+//using Cinema_DB.Application.Actors.Commands.DeleteActor;
+//using Cinema_DB.Application.Actors.Queries;
+
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Cinema_DB.Application.ActorsNS.Queries;
 
 namespace Cinema_DB.Controllers
 {

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -9,9 +9,13 @@
 
   <ItemGroup>
     <Compile Remove="Applications\**" />
+    <Compile Remove="Application\**" />
     <Content Remove="Applications\**" />
+    <Content Remove="Application\**" />
     <EmbeddedResource Remove="Applications\**" />
+    <EmbeddedResource Remove="Application\**" />
     <None Remove="Applications\**" />
+    <None Remove="Application\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,12 +39,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\" />
     <Folder Include="Helper\ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
 
 </Project>

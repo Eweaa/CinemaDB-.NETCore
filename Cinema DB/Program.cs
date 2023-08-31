@@ -13,6 +13,8 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddApplicationServices();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -93,7 +95,7 @@ builder.Services.AddCors(options =>
         });
 });
 
-builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
+    builder.Services.AddMediatR(c => c.RegisterServicesFromAssemblyContaining<Program>());
 
 var app = builder.Build();
 
